@@ -173,3 +173,14 @@ a:hover {
 .animate-spin {
   animation: spin 1s linear infinite;
 }
+
+/* Three.js Background Container */
+.three-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none; /* Allows clicking through the 3D canvas */
+}
